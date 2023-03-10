@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.blue{
+    background-color:black;
+}
+input{
+    width: 30vw;
+}
+button{
+    width: 10vw;
+    border: 2px solid red;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.logo{
+    
+        width: 81px;
+        border-radius: 53px;
+      
+}
+.black{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 10px; */
+    list-style: none;
+
+}
+.com{
+    padding: 50px;
+}
+.search1{
+    width: 10vw;
+}
+.heading1{
+    margin-top: 20px;
+}
+
+.card{
+    height: 30vh;
+    /* background-color: blueviolet; */
+    background-image: url("https://m.media-amazon.com/images/I/619rl+QqjwL._SX3000_.jpg");
+    /* scroll-behavior: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content:space-evenly;
+    align-self: auto;
+}
+.card1{
+    height: 30vh;
+    background-image: url("https://m.media-amazon.com/images/I/61gPOiG6YiL._SX3000_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content:space-evenly;
+    align-self: auto;
+}
+.card2{
+    height: 30vh;
+    background-image: url("https://m.media-amazon.com/images/I/61h3+J34oWL._SX3000_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content:space-evenly;
+    align-self: auto;
+}
+.footer{
+  height: 10vh;
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
